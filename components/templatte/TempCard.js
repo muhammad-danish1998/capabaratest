@@ -9,7 +9,7 @@ const TempCard = () => {
 
             <Row xs={2} md={3} className="g-4">
                 {Array.from({ length: 12 }).map((val, idx) => (
-                    <Col key = {idx}>
+                    <Col>
                         <Card >
 
                             <Image variant="top"
