@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -14,3 +15,307 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.navbarMain {
+  top: 0;
+  background-color: white;
+  z-index: 9;
+}
+
+/* /////////////////////// navbar ///////////////////////////  */
+.navbarItems {
+  margin-left: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+.navbarItems:hover {
+  color: #F06723 !important;
+  border-bottom: 2px solid #F06723;
+}
+
+.active {
+  color: #F06723 !important;
+  border-bottom: 2px solid #F06723;
+}
+
+.loginbtn {
+  background-color: #F06723 !important;
+  color: white !important;
+}
+
+.signupbtn:hover {
+  color: white !important;
+  background-color: #F06723 !important;
+}
+
+/* ///////////////////////// Footer //////////////////////  */
+.footerimg1 {
+
+  padding: 15px !important;
+
+}
+
+.footerimg2 {
+
+  padding: 15px !important;
+
+
+
+}
+.footerLinks{
+  margin: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+}
+.footerLinks:hover{
+  color: #F06723;
+}
+
+.imagelogoContainer {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+/* ////////////////////////////// Section //////////////////////////  */
+.sectiononeCon {
+  margin-top: 100px;
+  background-color: #E2E2E2;
+}
+
+.sectiononeContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60vh;
+
+}
+
+.action1 {
+  width: 127px;
+  height: 48px;
+  background-color: #F06723 !important;
+  color: white !important;
+  border-radius: 8px !important;
+  border: none !important;
+
+}
+
+.action1:hover {
+  background-color: white !important;
+  border: 2px solid #F06723 !important ;
+  color: #F06723 !important;
+}
+
+.action2 {
+  width: 127px;
+  height: 48px;
+  border-radius: 8px !important;
+  border: 2px solid orangered !important;
+}
+
+.action2:hover {
+  background-color: #F06723 !important;
+  color: white !important;
+}
+
+/* /////////////////////// Section2 ////////////////////  */
+.secTwoImgleft {}
+
+.secTwoImgright {
+
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* /////////////////////////////////// contact form /////////////////// */
+.containercontact {
+
+  box-shadow: -3px -6px 13px -2px rgba(0,0,0,0.75);
+  position: relative !important;
+  top: -100px !important;
+
+}
+
+.iconLeft {
+  padding: 10px;
+}
+
+.imageTextcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.textright {
+
+  text-align: justify;
+  padding: 15px;
+}
+
+.contact-left {
+  background-color: #C4C4C4;
+  /* height: 60vh; */
+}
+
+.socialIcon {
+
+  display: flex;
+  /* height: 20vh; */
+  align-items: end;
+  margin-top: 2rem !important;
+  cursor: pointer;
+}
+
+/* /////////////////// form right ///////////////  */
+
+.contact-right {
+  background-color: white;
+  padding: 20px;
+
+}
+
+.formHeading {
+  /* text-align: center;   */
+  margin-top: 32px;
+  font-weight: 500;
+  font-size: 20px;
+
+}
+
+input {
+  border: none !important;
+  border-bottom: 2px solid rgba(107, 114, 128, 0.5) !important;
+}
+
+/* ///////////////////////// Template //////////////////////  */
+.containerTemplate {
+  position: relative !important;
+  top: -100px !important;
+  box-shadow: -3px -6px 13px -2px rgba(0,0,0,0.75);
+}
+
+.template-left {
+  background-color: white !important;
+
+}
+
+/* .activeTemplate{
+  background: #C4C4C4;
+  border-radius: 5px;
+  padding: 1  px;
+  margin-top: 20px;
+  border: 2px solid black;
+  cursor: pointer;
+  margin-bottom: 20px;
+} */
+/* .activeTemplate p {
+  padding: 3px !important;
+} */
+/* .linContainer {
+  padding: 13px;
+  margin: 10px 0px; 
+  cursor: pointer;
+  border: 2px solid red;
+} */
+/* .linContainer a{
+padding: 3px !important;
+} */
+/* .linContainer:hover{
+  border-radius: 5px;
+  background-color: #C4C4C4;
+} */
+.contentRightTop {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.mainLeftHeading{
+  font-weight: bold;
+}
+.btnContainerForm button{
+  margin: 10px 0;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.dropdown-toggle{
+  width: 100%;
+  margin: 32px 0px; 
+  background-color: #F8F8F8 !important;
+  color: black !important;
+}
+.dropdown-menu{
+  width: 100%;
+}
+.dropDownTop{
+display: none;
+}
+.linkVerticalbar{
+  color: #000000 !important;
+  text-align: center;
+  font-weight: 500;
+}
+
+.linkVerticalbar:hover{
+  background-color:#C4C4C4;
+}
+.card-body {
+  padding: 1rem 0.5rem;
+  border: none !important;
+}
+.cardCircle{
+  width: 50.8px;
+  border-radius: 50%;
+  position: absolute;
+  top: 117px;
+  left: 16px;
+  height: 50.92px;
+  background-color: #5C4646;
+}
+.cardSquire{
+    width: 38.2px;
+    border-radius: 5px;
+    position: absolute;
+    top: 11px;
+    left: 258px;
+    height: 37.99px;
+    background-color: #5C4646;
+}
+
+
+
+/* ///////////////////////// MEdia Query ///////////////////////////// / */
+
+@media only screen and (max-width: 600px) {
+  /* .exploreMore {
+    display: none;
+  } */
+
+}
+@media only screen and (max-width: 990px) {
+ .template-left{
+   display: none;
+ }
+ .dropDownTop{
+  display: initial !important;
+  }
+ 
+
+}
+@media only screen and (max-width: 1408px) {
+
+  .cardSquire{
+    display: none;
+  }
+ 
+ }
